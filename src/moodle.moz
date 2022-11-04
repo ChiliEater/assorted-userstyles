@@ -1,0 +1,84 @@
+@-moz-document domain("moodle.zhaw.ch") {
+    body.drawer-open-left {
+        margin-left: 350px;
+    }
+    
+    #zhaw-mask {
+        display: none;
+    }
+    
+    #header {
+        margin: 0;
+        padding: 0;
+    }
+    
+    #page {
+        margin-top: 76px;
+        background-color: #ffffff;
+    }
+    
+    #nav-drawer {
+        margin-left: 0;
+        width: 350px;
+        top: 76px;
+        height: calc(100% - 76px);
+        background-color: #ffffff;
+    }
+    
+    #page-wrapper {
+        margin: 0;
+    }
+    
+    #region-main aside:first-child {
+        display: none;
+    }
+    
+    .header-container{
+        background-color: unset;
+    }
+    
+    .header-container .glyphicon {
+        color: #000000;
+    }
+    
+    #service > div {
+        filter: invert(1);
+    }
+    
+    .avatar {
+        filter: invert(1);
+    }
+    
+    #logo-zhaw {
+        display: none;
+    }
+    
+    #nav-drawer-button {
+        margin-top: 20px;
+    }
+    
+    #header .header-right {
+        margin: 20px 0;
+    }
+    
+    .card {
+        border: unset;
+    }
+    
+    #region-main {
+        border: none;
+    }
+    
+    .popover-region-container, #action-menu-1-menu, .simplesearchform .input-group {
+        filter: invert(1);
+    }
+    
+    
+    .drawer.bg-white {
+        top: 76px !important;
+    }
+    
+    #quiz-timer-wrapper {
+        z-index: 999;
+    }
+    }
